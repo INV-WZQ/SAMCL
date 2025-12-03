@@ -5,7 +5,7 @@
 
 ![](./images/method.png)
 
-> **SAMCL: Empowering SAM to Continually Learn from Dynamic Domains with Extreme Storage Efficiencys**   🥯[[Arxiv]](https://arxiv.org/abs/2412.05012)   
+> **SAMCL: Empowering SAM to Continually Learn from Dynamic Domains with Extreme Storage Efficiency**   🥯[[Arxiv]](https://arxiv.org/abs/2412.05012)   
 > [Zeqing Wang](https://inv-wzq.github.io/)<sup>12</sup>,  [Kangye Ji](https://ky-ji.github.io/)<sup>13</sup>, Di Wang<sup>1</sup>, Haibin Zhang<sup>1</sup>, Fei Cheng<sup>1</sup>  
 > <sup>1</sup> Xidian University  
 > <sup>2</sup> National University of Singapore  
