@@ -83,3 +83,6 @@ python train.py --module SAMCL --batch_size 8 --cuda 0
 python train_SAM2.py --module SAMCL_2 --batch_size 16 --cuda 0 
 ```
 
+## 🤓 Acknowledgments
+Our continual learning is based on [SAM](https://github.com/facebookresearch/segment-anything). We extend our gratitude to the community for their valuable contributions!
+
