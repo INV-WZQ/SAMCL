@@ -3,9 +3,15 @@
 # SAMCL: Empowering SAM to Continually Learn from Dynamic Domains with Extreme Storage Efficiency
 </div>
 
+![](./images/method.png)
+
+> **SAMCL: Empowering SAM to Continually Learn from Dynamic Domains with Extreme Storage Efficiencys**   🥯[[Arxiv]](https://arxiv.org/abs/2412.05012)   
+> [Zeqing Wang](https://inv-wzq.github.io/)<sup>12</sup>,  [Kangye Ji](https://ky-ji.github.io/)<sup>13</sup>, Di Wang<sup>1</sup>, Haibin Zhang<sup>1</sup>, Fei Cheng<sup>1</sup>  
+> <sup>1</sup> Xidian University  
+> <sup>2</sup> National University of Singapore  
+> <sup>3</sup> Tsinghua University
 
 ## 📚 TL;DR (Too Long; Didn't Read)
-![](./images/method.png)
 **SAMCL** empowers SAM with the continual learning (CL) ability across dynamic domains. At a high level, **SAMCL** decomposes incremental knowledge into separate modules and trains a selector to choose the appropriate one during inference. To tackle both effectiveness and storage efficiency, we introduce two components for **SAMCL**: *AugModule* and *Module Selector*.
 
 ## 🛠️ Implementation
@@ -43,7 +49,7 @@ data/Kvasir/
         ...
 ```
 
-All datasets need download from their official webset and then process to the above format.
+All datasets need download from their official webset and then process to the above format. We also provide the datasets used in our experiments at [link](https://drive.google.com/file/d/1CX2rLAcFGJXsgt9w9GwV_2va6apsamTS/view?usp=sharing).
 
 ```points.json``` stored the static points of each instance, which is used in main papaer. You can run ```generate_point.py``` for generating new points.
 
