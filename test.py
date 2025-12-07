@@ -96,11 +96,11 @@ def main(args, test_data, output_path, logging):
                 f1_scores.update(batch_f1, 1)
             if logging!=None and iter%50==0:
                 logging.info(
-                    f'Val: [[{iter}/{len(testloader)}]: Mean IoU: [{ious.avg:.4f}] -- Mean F1: [{f1_scores.avg:.4f}] -- MAE: [{mae_scores.avg:.4f}]'
+                    f'Val: [{iter}/{len(testloader)}]: Mean IoU: [{ious.avg:.4f}] -- Mean F1: [{f1_scores.avg:.4f}] -- MAE: [{mae_scores.avg:.4f}]'
                 )
         if logging!=None:
             logging.info(
-                f'Val: [[{iter}/{len(testloader)}]: Mean IoU: [{ious.avg:.4f}] -- Mean F1: [{f1_scores.avg:.4f}] -- MAE: [{mae_scores.avg:.4f}]'
+                f'Val: [{iter}/{len(testloader)}]: Mean IoU: [{ious.avg:.4f}] -- Mean F1: [{f1_scores.avg:.4f}] -- MAE: [{mae_scores.avg:.4f}]'
             )
             logging.info(f"Frequency of {index} task in Selecting corresponding module: {cnt}")
 
