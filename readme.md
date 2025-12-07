@@ -21,8 +21,7 @@
 conda create -n SAMCL python=3.10
 conda activate SAMCL
 
-cd sam2
-pip install -e .
+pip install -r requirements.txt
 ```
 
 ### Datasets
