@@ -85,3 +85,15 @@ python train_SAM2.py --module SAMCL_2 --batch_size 16 --cuda 0
 ## 🤓 Acknowledgments
 Our continual learning is based on [SAM](https://github.com/facebookresearch/segment-anything). We extend our gratitude to the community for their valuable contributions!
 
+## 🔗 Citation
+```
+@misc{wang2025samclempoweringsamcontinually,
+      title={SAMCL: Empowering SAM to Continually Learn from Dynamic Domains with Extreme Storage Efficiency}, 
+      author={Zeqing Wang and Kangye Ji and Di Wang and Haibin Zhang and Fei Cheng},
+      year={2025},
+      eprint={2412.05012},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2412.05012}, 
+}
+```
