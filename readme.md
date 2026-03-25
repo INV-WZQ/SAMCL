@@ -87,13 +87,16 @@ Our continual learning is based on [SAM](https://github.com/facebookresearch/seg
 
 ## 🔗 Citation
 ```
-@misc{wang2025samclempoweringsamcontinually,
-      title={SAMCL: Empowering SAM to Continually Learn from Dynamic Domains with Extreme Storage Efficiency}, 
-      author={Zeqing Wang and Kangye Ji and Di Wang and Haibin Zhang and Fei Cheng},
-      year={2025},
-      eprint={2412.05012},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2412.05012}, 
+@article{Wang_Ji_Wang_Zhang_Cheng_2026,
+    title={SAMCL: Empowering SAM to Continually Learn from Dynamic Domains with Extreme Storage Efficiency},
+    author={Wang, Zeqing and Ji, Kangye and Wang, Di and Zhang, Haibin and Cheng, Fei}
+    volume={40},
+    url={https://ojs.aaai.org/index.php/AAAI/article/view/39884},
+    DOI={10.1609/aaai.v40i31.39884},
+    number={31},
+    journal={Proceedings of the AAAI Conference on Artificial Intelligence},
+    year={2026},
+    month={Mar.},
+    pages={26741-26750}
 }
 ```
